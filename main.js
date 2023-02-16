@@ -34,13 +34,14 @@ async function getAstronomicalInfo () {
 getAstronomicalInfo();
 
 //Code for animated menu
+//Creadit: https://codepen.io/rachsmith/pen/AMVQLw
 
-var links = [{label: 'link1', bg: '#c0392b'}, 
-             {label: 'link2', bg: '#16a085'}, 
-             {label: 'link3', bg: '#8e44ad'}, 
+var links = [{label: 'Your full name', bg: '#c0392b'}, 
+             {label: 'Your location', bg: '#16a085'}, 
+             {label: 'Sunrise and sunset', bg: '#8e44ad'}, 
              {label: 'link4', bg: '#27ae60'}, 
-             {label: 'link5', bg: '#f39c12'}, 
-             {label: 'link6', bg: '#2980b9'}];
+             {label: 'Computer information', bg: '#f39c12'}, 
+             {label: 'Message', bg: '#2980b9'}];
 var windowHeight = window.innerHeight;
 if(windowHeight === 0) windowHeight = 238;
 var radius = windowHeight*0.6,

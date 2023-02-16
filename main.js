@@ -21,3 +21,10 @@ async function getComputerDetails() {
 
 getComputerDetails();
 
+async function getAstronomicalInfo () {
+    const response = await fetch (`https://api.ipgeolocation.io/astronomy?apiKey=${API_KEY}`);
+    let astronomicalInfo = await response.json();
+    console.log(astronomicalInfo);
+}
+
+getAstronomicalInfo();
